@@ -1,0 +1,122 @@
+/* Bloque */
+.tarjetaBem {
+	background-color: #d8d0d0;
+	border-radius: 15px;
+	padding: 20px;
+	margin-bottom: 50px; 
+}
+
+.tarjetaBem--border {
+	border: solid 1px red;
+}
+
+.tarjetaBem__titulo {
+	font-size:1.5rem;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.tarjetaBem__subTitulo {
+	font-style: italic;
+}
+
+.tarjetaBem__parrafo {
+	line-height: 28px;
+	font-size:1rem;
+}
+
+.tarjetaBem__boton{
+	height: 60px;
+	padding: 20px;
+	background-color: blue;
+	color: white;
+}
+
+.tarjetaBem__boton--rojo {
+	background-color: red;
+}
+
+/* Bloque */
+.ulBem {
+	list-style: none;
+}
+
+.ulBem__parrafo {
+	list-style: none;
+}
+
+.ulBem__parrafo--color{
+	color: gray;
+}
+
+.ulBem--uppercase {
+	text-transform: uppercase;
+}
+
+/* Bloque */
+.article {
+	background-color: green;
+	color: white;
+}
+
+.article--color {
+	background-color: blue;
+	color: white;
+}
+
+/* Bloque */
+.hr{
+	border: solid 2px black;
+}
+
+.hr--color {
+	border: solid 2px red;
+}
+
+.hr--border {
+	border: dotted 2px rgb(179, 255, 0);
+}
+
+/* Bloque */
+.headerBem {
+	background-color: black;
+	color: white
+	
+}
+
+.headerBem__titulo {
+	font-size: 4em;
+}
+
+/* Bloque */
+.mainBem {
+	background-color: rgb(190, 186, 186);
+}
+
+.mainBem__parrafo {
+	font-size: 1em;
+	color: yellow;
+}
+
+.mainBem__parrafo--color {
+	color: green;
+}
+
+/* Bloque */
+.footerBem {
+	background-color: blue;
+	color: rgb(252, 56, 56)
+}
+
+.footerBem__titulo {
+	font-size: 4em;
+}
+
+/* Bloque */
+.ulfooter {
+	list-style: none;
+}
+
+.ulfooter--uppercase {
+	text-transform: uppercase;
+}

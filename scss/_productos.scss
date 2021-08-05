@@ -1,0 +1,24 @@
+$productos: (
+    amortiguador: url("../imagenes/Productos/Amortiguador.jpg"),
+    precap: url("../imagenes/Productos/precap.jpg"),
+    bieleta: url("../imagenes/Productos/bieletas.jpg"),
+    buje: url("../imagenes/Productos/bujes.jpg"),
+    cajaDirrecion: url("../imagenes/Productos/Amortiguador.jpg"),
+    cazoleta: url("../imagenes/Productos/Amortiguador.jpg"),
+    extremo: url("../imagenes/Productos/Amortiguador.jpg"),
+    fuelle: url("../imagenes/Productos/Amortiguador.jpg"),
+    resortes: url("../imagenes/Productos/Amortiguador.jpg"),
+    rotulas: url("../imagenes/Productos/Amortiguador.jpg")
+);
+
+
+@each $clave, $valor in $productos {
+    .card-#{$clave} {
+        background-image: $valor;
+        background-size: cover;
+    }
+}
+
+.card div h2{
+    color: $secondaryColor;
+}

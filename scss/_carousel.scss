@@ -1,0 +1,33 @@
+/* Carousel */
+.carousel {
+    margin-bottom: 4rem;
+}
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+.carousel-item {
+    height: 32rem;
+}
+.carousel-item{
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        height: 32rem;
+    }
+}
+
+.carousel-titulo { 
+    animation-duration: 3s;
+    animation-name: aparecer; 
+    background-image: linear-gradient(to left,$primaryColor, black);
+}
+
+.carousel-subTitulo {
+    animation-duration: 10s;
+    animation-name: aparecer; 
+    background-image: linear-gradient(to top,$secondaryColor, black);
+}

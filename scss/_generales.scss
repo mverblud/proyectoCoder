@@ -1,0 +1,76 @@
+$primaryColor:#FDB904;
+$secondaryColor:#185ADB;
+$tipografia-general: 'Roboto', sans-serif;
+$Size: 5rem; 
+
+.lineaTitulo {
+    height: 8px;
+    width: 80px;
+    background-color:$primaryColor;
+    display: table;
+    margin-top: 10px;
+}
+
+@keyframes aparecer {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+$productos: (
+    amortiguador: url("../imagenes/Productos/Amortiguador.jpg"),
+    precap: url("../imagenes/Productos/precap.jpg"),
+    bieleta: url("../imagenes/Productos/bieletas.jpg"),
+    buje: url("../imagenes/Productos/buje.jpg"),
+    cajaDirrecion: url("../imagenes/Productos/Amortiguador.jpg"),
+    cazoleta: url("../imagenes/Productos/Amortiguador.jpg"),
+    extremo: url("../imagenes/Productos/Amortiguador.jpg"),
+    fuelle: url("../imagenes/Productos/Amortiguador.jpg"),
+    resortes: url("../imagenes/Productos/Amortiguador.jpg"),
+    rotulas: url("../imagenes/Productos/Amortiguador.jpg")
+);
+
+@each $clave, $valor in $productos {
+    .card-#{$clave} {
+        background-image: $valor;
+        background-size: cover;
+    }
+}
+
+.card div h2{
+    color: $secondaryColor;
+}
+
+.iconoRedes{
+    padding-right: 10px;
+    font-size: $Size; 
+    color: $primaryColor;
+    i:hover{
+        color: black; 
+    }
+}
+
+.iframe{
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (min-width:100px) and (max-width:425px){
+
+    .iconoRedes{
+        font-size: $Size/2; 
+    }
+}
+
+@media only screen and (min-width:425px) and (max-width:768px) {
+
+    .iconoRedes{
+        font-size: $Size/1.5; 
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+
+    .iconoRedes{
+        font-size: $Size; 
+    }
+}

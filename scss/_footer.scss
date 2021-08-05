@@ -1,0 +1,37 @@
+$width : 200px;
+$height: 60px;
+$fontSize: 2.5rem; 
+
+
+footer {
+    background-color: black;
+}
+
+.imgFooter {
+    width: $width;
+    height: $height;
+}
+
+.ulSocialFooter {
+    list-style: none; 
+    i{
+        padding-right: 10px;
+        color: white;
+        font-size: $fontSize; 
+    }
+    i:hover{
+        color: $primaryColor; 
+    }
+}
+
+@media only screen and (max-width:560px){
+
+    .imgFooter {
+        width: $width/1.5;
+        height: $height/1.5;
+    }
+
+    footer .ulSocialFooter i {
+        font-size: $fontSize/1.5;  
+    }
+}
