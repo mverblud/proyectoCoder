@@ -3,6 +3,11 @@ $secondaryColor:#185ADB;
 $tipografia-general: 'Roboto', sans-serif;
 $Size: 5rem; 
 
+.menuNavegacion a:hover{
+    background: $primaryColor;
+    border-radius: 5px;
+}
+
 .lineaTitulo {
     height: 8px;
     width: 80px;
