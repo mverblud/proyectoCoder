@@ -26,12 +26,12 @@ $productos: (
     precap: url("../imagenes/Productos/precap.jpg"),
     bieleta: url("../imagenes/Productos/bieletas.jpg"),
     buje: url("../imagenes/Productos/buje.jpg"),
-    cajaDirrecion: url("../imagenes/Productos/Amortiguador.jpg"),
-    cazoleta: url("../imagenes/Productos/Amortiguador.jpg"),
-    extremo: url("../imagenes/Productos/Amortiguador.jpg"),
-    fuelle: url("../imagenes/Productos/Amortiguador.jpg"),
-    resortes: url("../imagenes/Productos/Amortiguador.jpg"),
-    rotulas: url("../imagenes/Productos/Amortiguador.jpg")
+    cajaDirrecion: url("../imagenes/Productos/cajaDirrecion.jpg"),
+    cazoleta: url("../imagenes/Productos/cazoletas.jpg"),
+    extremo: url("../imagenes/Productos/extremos.jpg"),
+    fuelle: url("../imagenes/Productos/fuelles.jpg"),
+    resortes: url("../imagenes/Productos/Resortes.jpg"),
+    rotulas: url("../imagenes/Productos/rotulas.jpg")
 );
 
 @each $clave, $valor in $productos {
