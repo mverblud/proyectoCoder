@@ -92,6 +92,9 @@ footer {
   width: 200px;
   height: 60px; }
 
+.ulInfo {
+  font-size: 1.2rem; }
+
 .ulSocialFooter {
   list-style: none; }
   .ulSocialFooter i {
@@ -105,6 +108,8 @@ footer {
   .imgFooter {
     width: 133.33333px;
     height: 40px; }
+  .ulInfo {
+    font-size: 0.9rem; }
   footer .ulSocialFooter i {
     font-size: 1.66667rem; } }
 

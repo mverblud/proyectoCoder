@@ -1,7 +1,7 @@
 $width : 200px;
 $height: 60px;
 $fontSize: 2.5rem; 
-
+$fontSizeInfo: 1.2rem; 
 
 footer {
     background-color: black;
@@ -10,6 +10,10 @@ footer {
 .imgFooter {
     width: $width;
     height: $height;
+}
+
+.ulInfo{
+    font-size: $fontSizeInfo;  
 }
 
 .ulSocialFooter {
@@ -29,6 +33,10 @@ footer {
     .imgFooter {
         width: $width/1.5;
         height: $height/1.5;
+    }
+
+    .ulInfo{
+        font-size: $fontSizeInfo - 0.3;  
     }
 
     footer .ulSocialFooter i {
