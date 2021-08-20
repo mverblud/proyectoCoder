@@ -8,6 +8,16 @@ $Size: 5rem;
     border-radius: 5px;
 }
 
+.bg-img-hero{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.min-h-450rem {
+    min-height: 80rem;
+}
+
 .lineaTitulo {
     height: 8px;
     width: 80px;
