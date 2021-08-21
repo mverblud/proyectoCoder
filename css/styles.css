@@ -125,22 +125,56 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: normal; }
 
-/* Carousel 
-.carousel-titulo { 
-    animation-duration: 3s;
-    animation-name: aparecer; 
-    background-image: linear-gradient(to left,$primaryColor, black);
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/*
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
 }
 
-.carousel-subTitulo {
-    animation-duration: 10s;
-    animation-name: aparecer; 
-    background-image: linear-gradient(to top,$secondaryColor, black);
+.carousel-item {
+    height: 35rem;
 }
 
-.carousel {
-    margin-bottom: 4rem;
+
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 35rem;
+}
+
+@media (min-width: 10em) {
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .carousel-item {
+        height: 20rem;
+    }
+    
+    .carousel-item > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        height: 20rem;
+    }
 }*/
+@media only screen and (max-width: 560px) {
+  .carousel-item {
+    height: 15rem; }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 15rem; } }
+
 .card-amortiguador {
   background-image: url("../imagenes/Productos/Amortiguador.jpg");
   background-size: cover; }
